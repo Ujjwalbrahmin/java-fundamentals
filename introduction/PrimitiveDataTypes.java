@@ -13,7 +13,13 @@ class PrimitiveDataTypes {
         double h = 64.0; // 8 Bytes or, 64 Bits
 
         Double i = 64.0D; // Double is a wrapper class for double with added functionalities, notice the D suffix
+        Float j = 32.0F; // Float is a wrapper class for float with added functionalities, notice the F suffix
+
         System.out.println(h);
         System.out.println(i);
+        System.out.println("\n");
+
+        System.out.println(g);
+        System.out.println(j);
     }
 }
